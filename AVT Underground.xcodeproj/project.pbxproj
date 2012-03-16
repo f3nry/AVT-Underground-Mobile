@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DADA81071513B92C009C0D7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADA81061513B92C009C0D7B /* UIKit.framework */; };
+		DADA81091513B92C009C0D7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADA81081513B92C009C0D7B /* Foundation.framework */; };
+		DADA810B1513B92C009C0D7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADA810A1513B92C009C0D7B /* CoreGraphics.framework */; };
+		DADA81111513B92C009C0D7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DADA810F1513B92C009C0D7B /* InfoPlist.strings */; };
+		DADA81131513B92C009C0D7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DADA81121513B92C009C0D7B /* main.m */; };
+		DADA81171513B92C009C0D7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DADA81161513B92C009C0D7B /* AppDelegate.m */; };
+		DADA811A1513B92C009C0D7B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADA81181513B92C009C0D7B /* MainStoryboard.storyboard */; };
+		DADA811D1513B92C009C0D7B /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DADA811C1513B92C009C0D7B /* MasterViewController.m */; };
+		DADA81201513B92C009C0D7B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DADA811F1513B92C009C0D7B /* DetailViewController.m */; };
+		DADA81411513BB42009C0D7B /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = DADA812E1513BB42009C0D7B /* ASIAuthenticationDialog.m */; };
+		DADA81421513BB42009C0D7B /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = DADA81311513BB42009C0D7B /* ASIDataCompressor.m */; };
+		DADA81431513BB42009C0D7B /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = DADA81331513BB42009C0D7B /* ASIDataDecompressor.m */; };
+		DADA81441513BB42009C0D7B /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DADA81351513BB42009C0D7B /* ASIDownloadCache.m */; };
+		DADA81451513BB42009C0D7B /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DADA81371513BB42009C0D7B /* ASIFormDataRequest.m */; };
+		DADA81461513BB42009C0D7B /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DADA81391513BB42009C0D7B /* ASIHTTPRequest.m */; };
+		DADA81471513BB42009C0D7B /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = DADA813D1513BB42009C0D7B /* ASIInputStream.m */; };
+		DADA81481513BB42009C0D7B /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = DADA813F1513BB42009C0D7B /* ASINetworkQueue.m */; };
+		DADA814B1513BB69009C0D7B /* RESTEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = DADA814A1513BB69009C0D7B /* RESTEngine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DADA81021513B92C009C0D7B /* AVT Underground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AVT Underground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADA81061513B92C009C0D7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DADA81081513B92C009C0D7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DADA810A1513B92C009C0D7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DADA810E1513B92C009C0D7B /* AVT Underground-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AVT Underground-Info.plist"; sourceTree = "<group>"; };
+		DADA81101513B92C009C0D7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DADA81121513B92C009C0D7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DADA81141513B92C009C0D7B /* AVT Underground-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVT Underground-Prefix.pch"; sourceTree = "<group>"; };
+		DADA81151513B92C009C0D7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DADA81161513B92C009C0D7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DADA81191513B92C009C0D7B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DADA811B1513B92C009C0D7B /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		DADA811C1513B92C009C0D7B /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		DADA811E1513B92C009C0D7B /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		DADA811F1513B92C009C0D7B /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		DADA812D1513BB42009C0D7B /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		DADA812E1513BB42009C0D7B /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		DADA812F1513BB42009C0D7B /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		DADA81301513BB42009C0D7B /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		DADA81311513BB42009C0D7B /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		DADA81321513BB42009C0D7B /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		DADA81331513BB42009C0D7B /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		DADA81341513BB42009C0D7B /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		DADA81351513BB42009C0D7B /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		DADA81361513BB42009C0D7B /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		DADA81371513BB42009C0D7B /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		DADA81381513BB42009C0D7B /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		DADA81391513BB42009C0D7B /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		DADA813A1513BB42009C0D7B /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		DADA813B1513BB42009C0D7B /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		DADA813C1513BB42009C0D7B /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		DADA813D1513BB42009C0D7B /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		DADA813E1513BB42009C0D7B /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		DADA813F1513BB42009C0D7B /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		DADA81401513BB42009C0D7B /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		DADA81491513BB69009C0D7B /* RESTEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESTEngine.h; sourceTree = "<group>"; };
+		DADA814A1513BB69009C0D7B /* RESTEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESTEngine.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DADA80FF1513B92B009C0D7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADA81071513B92C009C0D7B /* UIKit.framework in Frameworks */,
+				DADA81091513B92C009C0D7B /* Foundation.framework in Frameworks */,
+				DADA810B1513B92C009C0D7B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DADA80F71513B92B009C0D7B = {
+			isa = PBXGroup;
+			children = (
+				DADA810C1513B92C009C0D7B /* AVT Underground */,
+				DADA81051513B92C009C0D7B /* Frameworks */,
+				DADA81031513B92C009C0D7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DADA81031513B92C009C0D7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DADA81021513B92C009C0D7B /* AVT Underground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DADA81051513B92C009C0D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DADA81061513B92C009C0D7B /* UIKit.framework */,
+				DADA81081513B92C009C0D7B /* Foundation.framework */,
+				DADA810A1513B92C009C0D7B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DADA810C1513B92C009C0D7B /* AVT Underground */ = {
+			isa = PBXGroup;
+			children = (
+				DADA812A1513BAE9009C0D7B /* Libraries */,
+				DADA81151513B92C009C0D7B /* AppDelegate.h */,
+				DADA81161513B92C009C0D7B /* AppDelegate.m */,
+				DADA81181513B92C009C0D7B /* MainStoryboard.storyboard */,
+				DADA811B1513B92C009C0D7B /* MasterViewController.h */,
+				DADA811C1513B92C009C0D7B /* MasterViewController.m */,
+				DADA811E1513B92C009C0D7B /* DetailViewController.h */,
+				DADA811F1513B92C009C0D7B /* DetailViewController.m */,
+				DADA810D1513B92C009C0D7B /* Supporting Files */,
+				DADA81491513BB69009C0D7B /* RESTEngine.h */,
+				DADA814A1513BB69009C0D7B /* RESTEngine.m */,
+			);
+			path = "AVT Underground";
+			sourceTree = "<group>";
+		};
+		DADA810D1513B92C009C0D7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DADA810E1513B92C009C0D7B /* AVT Underground-Info.plist */,
+				DADA810F1513B92C009C0D7B /* InfoPlist.strings */,
+				DADA81121513B92C009C0D7B /* main.m */,
+				DADA81141513B92C009C0D7B /* AVT Underground-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DADA812A1513BAE9009C0D7B /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				DADA812C1513BAF5009C0D7B /* ASIHTTPRequest */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		DADA812C1513BAF5009C0D7B /* ASIHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				DADA812D1513BB42009C0D7B /* ASIAuthenticationDialog.h */,
+				DADA812E1513BB42009C0D7B /* ASIAuthenticationDialog.m */,
+				DADA812F1513BB42009C0D7B /* ASICacheDelegate.h */,
+				DADA81301513BB42009C0D7B /* ASIDataCompressor.h */,
+				DADA81311513BB42009C0D7B /* ASIDataCompressor.m */,
+				DADA81321513BB42009C0D7B /* ASIDataDecompressor.h */,
+				DADA81331513BB42009C0D7B /* ASIDataDecompressor.m */,
+				DADA81341513BB42009C0D7B /* ASIDownloadCache.h */,
+				DADA81351513BB42009C0D7B /* ASIDownloadCache.m */,
+				DADA81361513BB42009C0D7B /* ASIFormDataRequest.h */,
+				DADA81371513BB42009C0D7B /* ASIFormDataRequest.m */,
+				DADA81381513BB42009C0D7B /* ASIHTTPRequest.h */,
+				DADA81391513BB42009C0D7B /* ASIHTTPRequest.m */,
+				DADA813A1513BB42009C0D7B /* ASIHTTPRequestConfig.h */,
+				DADA813B1513BB42009C0D7B /* ASIHTTPRequestDelegate.h */,
+				DADA813C1513BB42009C0D7B /* ASIInputStream.h */,
+				DADA813D1513BB42009C0D7B /* ASIInputStream.m */,
+				DADA813E1513BB42009C0D7B /* ASINetworkQueue.h */,
+				DADA813F1513BB42009C0D7B /* ASINetworkQueue.m */,
+				DADA81401513BB42009C0D7B /* ASIProgressDelegate.h */,
+			);
+			name = ASIHTTPRequest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DADA81011513B92B009C0D7B /* AVT Underground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADA81231513B92C009C0D7B /* Build configuration list for PBXNativeTarget "AVT Underground" */;
+			buildPhases = (
+				DADA80FE1513B92B009C0D7B /* Sources */,
+				DADA80FF1513B92B009C0D7B /* Frameworks */,
+				DADA81001513B92B009C0D7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AVT Underground";
+			productName = "AVT Underground";
+			productReference = DADA81021513B92C009C0D7B /* AVT Underground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DADA80F91513B92B009C0D7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DADA80FC1513B92B009C0D7B /* Build configuration list for PBXProject "AVT Underground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DADA80F71513B92B009C0D7B;
+			productRefGroup = DADA81031513B92C009C0D7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DADA81011513B92B009C0D7B /* AVT Underground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DADA81001513B92B009C0D7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADA81111513B92C009C0D7B /* InfoPlist.strings in Resources */,
+				DADA811A1513B92C009C0D7B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DADA80FE1513B92B009C0D7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADA81131513B92C009C0D7B /* main.m in Sources */,
+				DADA81171513B92C009C0D7B /* AppDelegate.m in Sources */,
+				DADA811D1513B92C009C0D7B /* MasterViewController.m in Sources */,
+				DADA81201513B92C009C0D7B /* DetailViewController.m in Sources */,
+				DADA81411513BB42009C0D7B /* ASIAuthenticationDialog.m in Sources */,
+				DADA81421513BB42009C0D7B /* ASIDataCompressor.m in Sources */,
+				DADA81431513BB42009C0D7B /* ASIDataDecompressor.m in Sources */,
+				DADA81441513BB42009C0D7B /* ASIDownloadCache.m in Sources */,
+				DADA81451513BB42009C0D7B /* ASIFormDataRequest.m in Sources */,
+				DADA81461513BB42009C0D7B /* ASIHTTPRequest.m in Sources */,
+				DADA81471513BB42009C0D7B /* ASIInputStream.m in Sources */,
+				DADA81481513BB42009C0D7B /* ASINetworkQueue.m in Sources */,
+				DADA814B1513BB69009C0D7B /* RESTEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DADA810F1513B92C009C0D7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADA81101513B92C009C0D7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DADA81181513B92C009C0D7B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADA81191513B92C009C0D7B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DADA81211513B92C009C0D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DADA81221513B92C009C0D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DADA81241513B92C009C0D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AVT Underground/AVT Underground-Prefix.pch";
+				INFOPLIST_FILE = "AVT Underground/AVT Underground-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DADA81251513B92C009C0D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AVT Underground/AVT Underground-Prefix.pch";
+				INFOPLIST_FILE = "AVT Underground/AVT Underground-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DADA80FC1513B92B009C0D7B /* Build configuration list for PBXProject "AVT Underground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADA81211513B92C009C0D7B /* Debug */,
+				DADA81221513B92C009C0D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADA81231513B92C009C0D7B /* Build configuration list for PBXNativeTarget "AVT Underground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADA81241513B92C009C0D7B /* Debug */,
+				DADA81251513B92C009C0D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DADA80F91513B92B009C0D7B /* Project object */;
+}
